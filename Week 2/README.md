@@ -2,7 +2,7 @@
 
 ## Structure
 
-This week, we had 2 lessons:
+This week, we had 2 lessons and 1 project:
 
 - Siraj's Neural Network
 - Intro to Neural Networks
@@ -10,7 +10,7 @@ This week, we had 2 lessons:
 
 
 ### Siraj's Neural Network
-This consisted of a video where we coded a neural network in python. 
+This consisted of a video where we coded a neural network in python.
 
 ### Intro to Neural Networks
 We went through logistic regression, gradient descent...
