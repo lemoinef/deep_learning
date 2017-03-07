@@ -29,4 +29,9 @@ In order to implement Siraj's linear regression, we need to activate the environ
 - pandas, matplotlib, scikit-learn
 `>> conda install pandas matplotlib scikit-learn`
 
-The script is provided with this week's folder. Some additional information about how outliers can affect linear regression was provided.  
+The script is provided with this week's folder.
+
+Some additional information about how outliers can affect linear regression was provided.  
+![alt tag](https://github.com/lemoinef/deep_learning/blob/master/Week%201/lin-reg-no-outliers.png)
+With outliers:
+![alt tag](https://github.com/lemoinef/deep_learning/blob/master/Week%201/lin-reg-w-outliers.png)
