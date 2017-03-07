@@ -20,3 +20,13 @@ Notebooks are essential to data science and machine learning.
 
 ### Applications
 One fun application is [deepart.io](https://deepart.io/latest/) which changes the style of pictures.
+
+### Regression
+In order to implement Siraj's linear regression, we need to activate the environment. Although, in this implementation we do not use matplotlib, another regression used it previously in the course.
+
+- Python 2
+`>> conda create -n siraj-regression python=2`
+- pandas, matplotlib, scikit-learn
+`>> conda install pandas matplotlib scikit-learn`
+
+The script is provided with this week's folder. Some additional information about how outliers can affect linear regression was provided.  
