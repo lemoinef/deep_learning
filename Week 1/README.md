@@ -33,5 +33,6 @@ The script is provided with this week's folder.
 
 Some additional information about how outliers can affect linear regression was provided.  
 ![alt tag](https://github.com/lemoinef/deep_learning/blob/master/Week%201/lin-reg-no-outliers.png)
+
 With outliers:
 ![alt tag](https://github.com/lemoinef/deep_learning/blob/master/Week%201/lin-reg-w-outliers.png)
