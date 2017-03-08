@@ -28,7 +28,10 @@ The perceptron is trained with weights (starting with a random value) that are u
 
 After training the neural net, the final result of the perceptron's summation is turned into an output signal. This is done by feeding the linear combination into an activation function. One simple activation function is the Heaviside step function which returns 1 if x is greater than 0 or 0 if x is smaller/equal to 0.
 
+One way to adjust the returned value is to add a bias to the linear equation. That way we can modulate the amount of "fired neurons". We denote the bias as _b_ in the equation.
 
+##### AND Perceptron
+In the notes, we add to find the weights and bias to have an AND perceptron script. The script is in this week's folder. We need to complete the `linear_combination = weight1*input1 + weight2*input2`.
 
 ### Project 1
 The first project consisted of building a neural net to predict bike rentals.
