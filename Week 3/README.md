@@ -69,9 +69,9 @@ This just means that you have a vector the length of the number of classes, and 
 
 Then, enter the environment
 
-`# on macOS or Linux
+`# on macOS or Linux'
 
-source activate tflearn`
+'source activate tflearn`
 
 
 `# on Windows`
@@ -93,6 +93,8 @@ Warning: The instructions below may not work on Windows. If you get any errors, 
 `pip install TFLearn`
 
 You should be good to go now."
+
+The answers are in a separate notebook.
 
 ### Preparing for Siraj's Lesson
 
