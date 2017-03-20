@@ -40,6 +40,20 @@ This week, we had 5 lessons:
 ### Sentiment Analysis with Andrew Trask
 
 ### Intro to TFLearn
+We will learn about
+- Activation functions: rectified linear units (ReLUs) and Softmax
+- Classification cost function: Categorical Cross Entropy
+- Sentiment Analysis with TFLearn
+- Handwritten digit recognition with TFLearn
+
+#### Activation functions
+We used the sigmoid function as the activation function earlier on our hidden units. But this is not the only activation function you can use and actually has some drawbacks. The derivative of the sigmoid function maxes out at 0.25, which mean the error is shrunk by at least 75%, which mean the weight updates will be tiny. Sigmoids - because of that- have fallen out of favor.
+
+Instead of sigmoids, most recent deep learning networks use rectified linear units (ReLUs) for the hidden layers. ReLU activations are the simplest non-linear activation function we can use. When the input is positive, the derivative is 1, so there isn't the vanishing effect we see with sigmoids. Frameworks like TensorFlow and TFLearn make it simple it use ReLU on hidden layers.
+
+Sometimes, ReLUs can 'die' in training, the weight could be set in such as way that it never fires again. To prevent this, we must set an appropriate learning rate that is not too high.
+
+In the case of the Softmax, it 'squashes' the outputs in order to have units in between 0 and 1. The output created by the softmax function is equivalent to a categorical probability distribution. The only difference between the sigmoid and the softmax is the 'squashed' effect on the output (equalling to 1) 
 
 ### Preparing for Siraj's Lesson
 
