@@ -53,7 +53,14 @@ Instead of sigmoids, most recent deep learning networks use rectified linear uni
 
 Sometimes, ReLUs can 'die' in training, the weight could be set in such as way that it never fires again. To prevent this, we must set an appropriate learning rate that is not too high.
 
-In the case of the Softmax, it 'squashes' the outputs in order to have units in between 0 and 1. The output created by the softmax function is equivalent to a categorical probability distribution. The only difference between the sigmoid and the softmax is the 'squashed' effect on the output (equalling to 1) 
+In the case of the Softmax, it 'squashes' the outputs in order to have units in between 0 and 1. The output created by the softmax function is equivalent to a categorical probability distribution. The only difference between the sigmoid and the softmax is the 'squashed' effect on the output (equalling to 1)
+
+#### Categorical Cross-Entropy
+"we've been using the sum of squared errors as the cost function in our networks, but in those cases we only have singular (scalar) output values.
+
+When you're using softmax, however, your output is a vector. One vector is the probability values from the output units. You can also express your data labels as a vector using what's called one-hot encoding.
+
+This just means that you have a vector the length of the number of classes, and the label element is marked with a 1 while the other labels are set to 0."
 
 ### Preparing for Siraj's Lesson
 
