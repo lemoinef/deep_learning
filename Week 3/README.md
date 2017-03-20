@@ -86,11 +86,11 @@ Then, install TFLearn and its dependencies.
 
 Warning: The instructions below may not work on Windows. If you get any errors, try the possible solutions found at the bottom of the page.
 
-`conda install scipy h5py
+`conda install scipy h5py`
 
-pip install tensorflow
+`pip install tensorflow`
 
-pip install TFLearn`
+`pip install TFLearn`
 
 You should be good to go now."
 
