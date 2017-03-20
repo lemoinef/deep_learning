@@ -66,22 +66,32 @@ This just means that you have a vector the length of the number of classes, and 
 "First things first, let's get you set up with TFLearn. You'll want to make a new environment called tflearn (or whatever you want to call it).
 
 `conda create -n tflearn python=3.5`
+
 Then, enter the environment
 
 `# on macOS or Linux
+
 source activate tflearn`
 
+
 `# on Windows`
+
 `activate tflearn`
+
 I'll also be giving you a notebook as an exercise, so you'll need to install numpy, pandas, matplotlib, and Jupyter notebooks.
 
 `conda install numpy pandas jupyter notebook matplotlib`
+
 Then, install TFLearn and its dependencies.
 
 Warning: The instructions below may not work on Windows. If you get any errors, try the possible solutions found at the bottom of the page.
+
 `conda install scipy h5py
+
 pip install tensorflow
+
 pip install TFLearn`
+
 You should be good to go now."
 
 ### Preparing for Siraj's Lesson
