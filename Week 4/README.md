@@ -27,4 +27,12 @@ Neural Networks can improve the accuracy of their outputs over time.A simple art
 - inputs
 - weights
 - bias
-By varying the weights, we can vary the amount of influence any given input has on the output.The learning process of neural net happens with backpropagation: the network modifies the weights to improve the network's output accuracy. 
+By varying the weights, we can vary the amount of influence any given input has on the output.The learning process of neural net happens with backpropagation: the network modifies the weights to improve the network's output accuracy.
+
+#### Linear Transform
+
+#### Sigmoid Function
+The sigmoid function replaces the stepfunction with an elegant S-shaped curve. The sigmoid function makes decisions, with the given weighted features from some data, it indicates whether or not the features contribute to a classification. The process of learning is done through backpropagation and gradient descent ans updates the weigths and bias.  
+
+#### Cost
+Different names exist for the accuracy measurements of networks. It can be called loss or cost. To calculate the cost in this lab we will use the mean squared error.
