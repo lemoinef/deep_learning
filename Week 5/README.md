@@ -26,3 +26,6 @@ We:
 - Used tf.placeholder() and feed_dict to get input.
 - Applied the tf.add(), tf.subtract(), tf.multiply(), and tf.divide() functions using numeric data.
 - Learned about casting between types with tf.cast()
+
+### Logistic Classifier
+The most common operation in neural networks is calculating the linear combination of inputs, weights, and biases. As a reminder, we can write the output of the linear operation as `y = xW + b`
