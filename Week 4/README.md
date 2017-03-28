@@ -40,3 +40,12 @@ Different names exist for the accuracy measurements of networks. It can be calle
 "The cost, C, depends on the difference between the correct output, y(x), and the network's output, a. It's easy to see that no difference between y(x) and a (for all values of x) leads to a cost of 0.
 
 This is the ideal situation, and in fact the learning process revolves around minimizing the cost as much as possible."
+
+#### Gradient Descent or Journey to the Bottom of the Valley
+"You can envision the cost as a hill or mountain and we want to get to the bottom.
+
+Imagine your model parameters are represented by a ball sitting on a hill. Intuitively, we want to push the ball downhill. And that makes sense, but when we're talking about our cost function, how do we know which way is downhill?
+
+Luckily, the gradient provides this exact information.
+
+Technically, the gradient actually points uphill, in the direction of steepest ascent. But if we put a - sign in front of this value, we get the direction of steepest descent, which is what we want."
