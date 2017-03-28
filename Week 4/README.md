@@ -36,3 +36,7 @@ The sigmoid function replaces the stepfunction with an elegant S-shaped curve. T
 
 #### Cost
 Different names exist for the accuracy measurements of networks. It can be called loss or cost. To calculate the cost in this lab we will use the mean squared error.
+
+"The cost, C, depends on the difference between the correct output, y(x), and the network's output, a. It's easy to see that no difference between y(x) and a (for all values of x) leads to a cost of 0.
+
+This is the ideal situation, and in fact the learning process revolves around minimizing the cost as much as possible."
