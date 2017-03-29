@@ -49,3 +49,9 @@ Imagine your model parameters are represented by a ball sitting on a hill. Intui
 Luckily, the gradient provides this exact information.
 
 Technically, the gradient actually points uphill, in the direction of steepest ascent. But if we put a - sign in front of this value, we get the direction of steepest descent, which is what we want."
+
+#### Backpropagation
+"Now that we know how to update our weights and biases using the gradient, we need to figure out how to calculate the gradients for all of our nodes. For each node, we'll want to change the values based on the gradient of the cost with respect to the value of that node. In this way, the gradient descent updates we make will eventually converge to the minimum of the cost."
+
+#### Stochastic Gradient Descent
+This is helps us approximate the gradient descent incrementally. 
