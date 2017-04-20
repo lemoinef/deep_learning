@@ -1,1 +1,1 @@
-# Generating Music with Deep Learning
+# Generating Music with RNNs
